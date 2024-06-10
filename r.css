@@ -4,12 +4,17 @@
 }
 a{
     color: aliceblue;
-    text-decoration: none;
+    padding: 20px;    text-decoration: none;
 }
-
+a:hover{
+    color: black;
+    animation: 0.5 ease-in-out;
+    padding: 10px;
+    transition: 2s ease;
+}
 .menu{
     background-color: dodgerblue;
-    flex-wrap: wrap;
+    
     padding: 20px;
     
 }
@@ -36,6 +41,7 @@ display: flex;
 justify-content: space-around;
 flex-wrap: wrap;
 }
+
 
 
 
